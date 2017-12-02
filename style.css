@@ -1,0 +1,395 @@
+body{
+    text-align:center;
+	  font-weight: 400;
+	font-size:20px;
+	border:10px solid grey;
+	border-radius:3px;
+	background-image:url("http://www.freebiesgallery.com/wp-content/uploads/2013/09/paper-backgrounds.jpg");
+}
+
+	
+.header{
+  height: 100px;
+  background-color: cornflowerblue;
+  color:black;
+   font-weight: 400;
+}
+.header h1{
+  color: rgba(256,256,256,1);
+  text-align: center;
+  margin-top : 0px;
+  padding: 20px;
+  font-size: 250%;
+text-align:center;
+font-family:sans-serif;
+
+	}
+	.set{
+	font-family:cursive;
+	color:white;
+	}
+	.sett{
+	font-family:sans-serif;
+	color:black;
+	}
+
+.time-block {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 115px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+  
+    z-index: 20;
+    margin-top: 25px;
+    
+}
+.input-row {
+    clear: both;
+}
+.time-block-question {
+    left: 5%;
+    position: left;
+    float: left;
+    color: black;
+}
+
+.time-block-input {
+    float: left;
+    position: left;
+    left: 5%;
+		font-family:cursive;
+}
+
+.time-block-input input {
+    height: 40px;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 5%;
+	padding:10px;
+		font-family:cursive;
+}
+
+.time-block-button {
+    float: left;
+    position: left;
+    left: 5%;
+	padding:10px;
+		font-family:cursive;
+}
+
+.restart-button {
+    float: left;
+    position:left ;
+    left: 5%;
+	padding:10px;
+		font-family:cursive;
+}
+
+.clear-button {
+    float: left;
+    position:left;
+    left: 5%;
+	padding:10px;	font-family:cursive;
+	
+
+button #rock {
+   background: url(img/rock.png) no-repeat;
+}
+}
+
+.time-block-button button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    margin-top: 17%;
+    font-size: 14px;
+    font-weight: 400;
+    	font-family:cursive;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+		background-color:#cd3259;
+    color: #000000;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    height: 42px;
+    width: 100px;
+    box-shadow: 1px 3px 2px 0 lightgray;
+}
+
+.time-block-button button:hover {
+    box-shadow: 0 0 #FFB6C1;
+}
+
+.time-block-button button:focus {
+	
+    outline: 0;
+}
+
+.restart-button button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    margin-top: 17%;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background: #80008;
+    background: #800080;
+    color: white;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    height: 42px;
+    width: 105px;
+    box-shadow: 0px 2px 4px 0 lightgray;
+		font-family:cursive;
+}
+
+.restart-button button:hover {
+    box-shadow: 0 0 lightgray;
+}
+
+.restart-button button:focus {
+    outline: 0;
+}
+
+.clear-button button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    margin-top: 17%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background: cornflowerblue;
+    color: white;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    height: 42px;	
+	font-family:cursive;
+    width: 105px;
+    box-shadow: 0px 2px 4px 0 lightgray;
+}
+
+.clear-button button:hover {
+    box-shadow: 0 0 lightgray;
+}
+
+.clear-button button:focus {
+    outline: 0;
+}
+.display-blocks-section {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 390px;
+}
+
+.display-count {
+    background:red ;
+    width: 20%;
+    height: 260px;
+    left: 10%;
+    position: relative;
+    float: left;
+    text-align: center;
+	background-image:url("https://image.freepik.com/free-vector/plain-red-blurred-background_1035-3332.jpg");
+}
+
+.display-count h1 {
+    font-size: 115px;
+    margin-top: 20%;
+    color: white;
+}
+
+.fingers-box {
+    border: 1px solid lightgray;
+    width: 20%;
+    height: 260px;
+    left: 20%;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+    text-align: center;
+	background-image:url("http://www.qygjxz.com/data/out/187/5167695-plain-backgrounds.png");
+}
+
+.fingers-box h1 {
+    margin-top: 37%;
+}
+
+.toes-box {
+    border: 1px solid lightgray;
+    width: 20%;
+    height: 260px;
+    left: 30%;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+    text-align: center;
+	background-image:url("http://www.qygjxz.com/data/out/187/5167695-plain-backgrounds.png");
+}
+
+.toes-box h1 {
+    margin-top: 37%;
+}
+
+@media only screen and (max-width: 1280px) {
+    .fingers-box h1 {
+        margin-top: 45%;
+    }
+
+    .toes-box h1 {
+        margin-top: 45%;
+    }
+
+    .display-count h1 {
+        margin-top: 22%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .header h1 {
+        left: 2.5%;
+    }
+
+    .time-block {
+        left: 2.5%;
+        right: 2.5%;
+    }
+
+    .display-count {
+        width: 25%;
+        left: 10%;
+    }
+
+    .display-count h1 {
+        margin-top: 22%;
+    }
+
+    .fingers-box {
+        width: 25%;
+        left: 12.5%;
+    }
+
+    .fingers-box h1 {
+        margin-top: 37%;
+    }
+
+    .toes-box {
+        width: 25%;
+        left: 15%;
+    }
+
+    .toes-box h1 {
+        margin-top: 37%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .header {
+        text-align: center;
+    }
+
+    .header h1 {
+        position: absolute;
+    }
+
+    .time-block {
+        left: 2.5%;
+        right: 2.5%;
+    }
+
+    .time-block-question {
+        width: 95%;
+        text-align: center;
+    }
+
+    .time-block-input {
+        left: 20%;
+        width: 60%;
+    }
+
+    .time-block-input input {
+        width: 100%;
+        height: 78px;
+    }
+
+    .time-block-button {
+        clear: both;
+        left: 20%;
+        width: 60%;
+        /*top: -60px;*/
+    }
+
+    .time-block-button button {
+        width: 100%;
+        font-size: 29px;
+        height: 78px;
+    }
+
+    .restart-button {
+        clear: both;
+        left: 20%;
+        width: 30%;
+        /*top: -55px;*/
+    }
+
+    .restart-button button {
+        width: 100%;
+        height: 68px;
+        font-size: 25px;
+    }
+
+    .clear-button {
+        left: 20%;
+        width: 30%;
+        /*top: -55px;*/
+    }
+
+    .clear-button button {
+        width: 100%;
+        height: 68px;
+        font-size: 25px;
+    }
+
+    .display-count {
+        width: 95%;
+        left: 2.5%;
+        top: 360px;
+    }
+
+    .display-count h1 {
+        margin-top: 7%;
+    }
+
+    .fingers-box {
+        width: 46.25%;
+        left: 2.5%;
+        top: 365px;
+	}
+    
+
+    .fingers-box h1 {
+        margin-top: 25%;
+    }
+
+    .toes-box {
+        width: 46.25%;
+        left: 5%;
+        top: 365px;
+    }
+
+    .toes-box h1 {
+        margin-top: 25%;
+    }
+}
